@@ -1,0 +1,22 @@
+    1  git remote -v
+    2  make trex\
+    3  make trex
+    4  make stego
+    5  chmod +x ref_order
+    6  make stego
+    7  ./bin/orderlogs testcases/all_new
+    8  ./bin/orderlogs -f testcases/all_new
+    9  make spinosaurus
+   10  make trike
+   11  gdb bin/orderlogs 
+   12  make spinosaurus
+   13  make trex
+   14  ./bin/orderlogs -f testcases/all_new
+   15  make spinosaurus
+   16  make trike
+   17  gdb bin/orderlogs 
+   18  make spinosaurus
+   19  make trex
+   20  ./bin/orderlogs -f testcases/all_new
+   21  make stego
+   22  history > shell_logs.txt
